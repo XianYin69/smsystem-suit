@@ -39,8 +39,10 @@
   ],
   "gui": "sms-shell:skill/scripts/shell_qt.py",
   "gui_launch": [
-    "sms-shell --qt",
-    "python -B sms-shell/bin/sms-shell.py --qt",
+    "sms-shell-gui",
+    "sms-shell/bin/sms-shell-gui.cmd",
+    "python -B sms-shell/bin/sms-shell-gui.py",
+    "sms-shell --qt（旧用法兼容：tui 入口转交 gui 入口）",
     "python -B C:\\UserSpace\\EthanYan\\Developin\\SMS-Shell\\skill\\scripts\\shell_qt.py"
   ],
   "skill_entry": "C:\\Users\\User\\AppData\\Local\\SMS\\skills\\smsystem-suit",

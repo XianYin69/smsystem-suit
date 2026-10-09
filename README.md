@@ -18,7 +18,7 @@ SMS 系统套件伞仓（umbrella）。本仓不含实现代码，只承载套�
 `sms-core → ..\SMS-core`、`sms-shell → ..\SMS-Shell`、`smsc → ..\smsc`、`smsocket → ..\smsocket`；
 建法 `New-Item -ItemType Junction -Name sms-core -Target ..\SMS-core`。`.gitignore` 已忽略这四个成员目录名，
 成员内容不被伞仓跟踪（伞仓只跟踪 README.md / suite.json / .gitignore）。
-GUI 起法：`sms-shell --qt` 或 `python -B bin/sms-shell.py --qt`（＝`sms-shell:skill/scripts/shell_qt.py`）。
+GUI 起法（批37 双入口）：`sms-shell-gui`／`<目标>/bin/sms-shell-gui.cmd`／`python -B bin/sms-shell-gui.py`（＝`sms-shell:skill/scripts/shell_qt.py`）；终端入口 `sms-shell-tui`，旧 `sms-shell --qt` 用法由 tui 入口转交图形入口。
 技能入口：`<SMS_HOME>\skills\smsystem-suit → Developin\SMS-core`（伞目录不放 SKILL.md，避免同 id 双注册）。
 
 ## 历史
