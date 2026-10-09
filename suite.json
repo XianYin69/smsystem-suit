@@ -17,7 +17,7 @@
       "rel": "sms-shell",
       "path": "C:\\UserSpace\\EthanYan\\Developin\\SMS-Shell",
       "repo": "https://github.com/XianYin69/sms-shell",
-      "role": "命令行与图形壳（批36 PyQt6 GUI shell_qt.py）",
+      "role": "命令行与图形壳（批36 PyQt6 GUI shell_qt.py；批38 网页端传真机镜像 shell_qt_fax.py，GUI 免密钥",
       "entry": "sms-shell/skill/scripts/shell_qt.py"
     },
     {
@@ -37,9 +37,9 @@
       "role": "本地模型路由 socket"
     }
   ],
-  "gui": "sms-shell:skill/scripts/shell_qt.py",
+  "gui": "sms-shell:skill/scripts/shell_qt.py + shell_qt_fax.py(传真机镜像件)",
   "gui_launch": [
-    "sms-shell-gui",
+    "sms-shell-gui(批37 图形入口=传真机镜像壳)",
     "sms-shell/bin/sms-shell-gui.cmd",
     "python -B sms-shell/bin/sms-shell-gui.py",
     "sms-shell --qt（旧用法兼容：tui 入口转交 gui 入口）",
