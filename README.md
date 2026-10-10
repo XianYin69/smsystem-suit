@@ -7,7 +7,7 @@ SMS 系统套件伞仓（umbrella）。本仓不含实现代码，只承载套�
 
 | 成员 | 角色 | 本地路径 | 远端 |
 |---|---|---|---|
-| sms-core | 内核：数据流引擎 / 网关 / 十二链 / 权限 / SOLO | `Developin\SMS-core`（伞内链接 `sms-core/`） | https://github.com/XianYin69/sms-core |
+| sms-core | 内核：数据流引擎 / 网关 / 十二链 / 权限 / SOLO（批39 四指标：路由 idf 打分＋注册表剪枝补登、索引分组列全 79 技能、链 git 防抖＋陈旧锁自愈、error 链 kind 归一） | `Developin\SMS-core`（伞内链接 `sms-core/`） | https://github.com/XianYin69/sms-core |
 | sms-shell | 命令行与图形壳（批36 PyQt6 GUI `shell_qt.py`） | `Developin\SMS-Shell`（伞内链接 `sms-shell/`） | https://github.com/XianYin69/sms-shell |
 | smsc | 浏览器 / 控制台侧 | `Developin\smsc`（伞内链接 `smsc/`） | https://github.com/XianYin69/smsc |
 | smsocket | 本地模型路由 socket | `Developin\smsocket`（伞内链接 `smsocket/`） | https://github.com/XianYin69/smsocket |
