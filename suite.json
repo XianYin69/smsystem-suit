@@ -1,0 +1,50 @@
+{
+  "name": "smsystem-suit",
+  "note": "伞仓不含实现代码：成员以 Junction 挂在本目录下（链接名＝成员 id），内容各属自己的仓，伞仓 .gitignore 已忽略这四个目录名。",
+  "members": [
+    {
+      "id": "sms-core",
+      "link": "sms-core",
+      "rel": "sms-core",
+      "path": "C:\\UserSpace\\EthanYan\\Developin\\SMS-core",
+      "repo": "https://github.com/XianYin69/sms-core",
+      "role": "内核：数据流引擎 / 网关 / 十二链 / 权限 / SOLO",
+      "entry": "sms-core/SKILL.md"
+    },
+    {
+      "id": "sms-shell",
+      "link": "sms-shell",
+      "rel": "sms-shell",
+      "path": "C:\\UserSpace\\EthanYan\\Developin\\SMS-Shell",
+      "repo": "https://github.com/XianYin69/sms-shell",
+      "role": "命令行与图形壳（批36 PyQt6 GUI shell_qt.py；批38 网页端传真机镜像 shell_qt_fax.py，GUI 免密钥",
+      "entry": "sms-shell/skill/scripts/shell_qt.py"
+    },
+    {
+      "id": "smsc",
+      "link": "smsc",
+      "rel": "smsc",
+      "path": "C:\\UserSpace\\EthanYan\\Developin\\smsc",
+      "repo": "https://github.com/XianYin69/smsc",
+      "role": "浏览器 / 控制台侧"
+    },
+    {
+      "id": "smsocket",
+      "link": "smsocket",
+      "rel": "smsocket",
+      "path": "C:\\UserSpace\\EthanYan\\Developin\\smsocket",
+      "repo": "https://github.com/XianYin69/smsocket",
+      "role": "本地模型路由 socket"
+    }
+  ],
+  "gui": "sms-shell:skill/scripts/shell_qt.py + shell_qt_fax.py(传真机镜像件)",
+  "gui_launch": [
+    "sms-shell-gui(批37 图形入口=传真机镜像壳)",
+    "sms-shell/bin/sms-shell-gui.cmd",
+    "python -B sms-shell/bin/sms-shell-gui.py",
+    "sms-shell --qt（旧用法兼容：tui 入口转交 gui 入口）",
+    "python -B C:\\UserSpace\\EthanYan\\Developin\\SMS-Shell\\skill\\scripts\\shell_qt.py"
+  ],
+  "skill_entry": "C:\\Users\\User\\AppData\\Local\\SMS\\skills\\smsystem-suit",
+  "former_identity": "skill_manage_system"
+}

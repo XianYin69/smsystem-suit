@@ -1,0 +1,25 @@
+# 伞仓忽略：成员内容不入库（成员各属自己的仓）
+sms-core/
+SMS-core/
+sms-shell/
+SMS-Shell/
+smsc/
+smsocket/
+llm-router/
+private/
+!private/.gitkeep
+
+# 通用噪声
+tmp/
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
