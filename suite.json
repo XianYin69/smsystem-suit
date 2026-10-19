@@ -6,35 +6,39 @@
       "id": "sms-core",
       "link": "sms-core",
       "rel": "sms-core",
-      "path": "C:\\UserSpace\\EthanYan\\Developin\\SMS-core",
+      "path": "/root/sms/repos/sms-core",
       "repo": "https://github.com/XianYin69/sms-core",
       "role": "内核：数据流引擎 / 网关 / 十二链 / 权限 / SOLO",
-      "entry": "sms-core/SKILL.md"
+      "entry": "sms-core/SKILL.md",
+      "on_linux": true
     },
     {
       "id": "sms-shell",
       "link": "sms-shell",
       "rel": "sms-shell",
-      "path": "C:\\UserSpace\\EthanYan\\Developin\\SMS-Shell",
+      "path": "/root/sms/repos/sms-shell",
       "repo": "https://github.com/XianYin69/sms-shell",
       "role": "命令行与图形壳（批36 PyQt6 GUI shell_qt.py；批38 网页端传真机镜像 shell_qt_fax.py，GUI 免密钥",
-      "entry": "sms-shell/skill/scripts/shell_qt.py"
+      "entry": "sms-shell/skill/scripts/shell_qt.py",
+      "on_linux": true
     },
     {
       "id": "smsc",
       "link": "smsc",
       "rel": "smsc",
-      "path": "C:\\UserSpace\\EthanYan\\Developin\\smsc",
+      "path": "/root/sms/repos/smsc",
       "repo": "https://github.com/XianYin69/smsc",
-      "role": "浏览器 / 控制台侧"
+      "role": "浏览器 / 控制台侧",
+      "on_linux": true
     },
     {
       "id": "smsocket",
       "link": "smsocket",
       "rel": "smsocket",
-      "path": "C:\\UserSpace\\EthanYan\\Developin\\smsocket",
+      "path": "/root/sms/repos/smsocket",
       "repo": "https://github.com/XianYin69/smsocket",
-      "role": "本地模型路由 socket"
+      "role": "本地模型路由 socket",
+      "on_linux": true
     }
   ],
   "gui": "sms-shell:skill/scripts/shell_qt.py + shell_qt_fax.py(传真机镜像件)",
@@ -45,6 +49,7 @@
     "sms-shell --qt（旧用法兼容：tui 入口转交 gui 入口）",
     "python -B C:\\UserSpace\\EthanYan\\Developin\\SMS-Shell\\skill\\scripts\\shell_qt.py"
   ],
-  "skill_entry": "C:\\Users\\User\\AppData\\Local\\SMS\\skills\\smsystem-suit",
-  "former_identity": "skill_manage_system"
+  "skill_entry": "/root/sms/home/skills/smsystem-suit",
+  "former_identity": "skill_manage_system",
+  "win_source": "C:/UserSpace/EthanYan/Developin (Windows reference copy)"
 }
