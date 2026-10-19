@@ -26,3 +26,12 @@ Thumbs.db
 
 #Kilo code
 .kilo/
+
+# 本地运行产物（SMS runtime，不入库）
+db.sqlite3
+runtime/
+task_detail.txt
+task_error.txt
+task_output.txt
+task_result.txt
+CHANGELOG.md.bak*
